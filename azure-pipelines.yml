@@ -61,7 +61,7 @@ steps:
     publishTestResults: true
     projects: '**/*.Tests.csproj'
 
-- task: DotNetCoreCLI@6
+- task: DotNetCoreCLI@3
   displayName: 'Create code coverage report'
   inputs:
     command: custom
